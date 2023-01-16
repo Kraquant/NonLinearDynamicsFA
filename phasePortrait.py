@@ -34,15 +34,15 @@ def drawPhasePortrait(qList, EList, eps):
             ax.plot(Htuples[0][i], Htuples[1][0][i], 'c')
             ax.plot(Htuples[0][i], Htuples[1][1][i], 'c')
     ax.grid()
-    ax.set_xlabel('q')
-    ax.set_ylabel('p')
+    ax.set_xlabel('q', fontsize = 18.0)
+    ax.set_ylabel('p', fontsize = 18.0)
 
 # Setting up parameters
 qmin = -3
 qmax = 3
 
-Emin = -1
-Emax = 1
+Emin = -.1
+Emax = .1
 
 curveNumber = 10
 

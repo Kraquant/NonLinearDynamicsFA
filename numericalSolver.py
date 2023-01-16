@@ -73,12 +73,12 @@ def plotpqtValues():
     ax[0].grid()
     ax[0].legend()
     ax[0].set_title("Variations of q")
-    ax[0].set(xlabel='q(t)', ylabel='t')
+    ax[0].set(xlabel='t', ylabel='q(t)')
 
     ax[1].grid()
     ax[1].legend()
     ax[1].set_title("Variations of p")
-    ax[1].set(xlabel='p(t)', ylabel='t')
+    ax[1].set(xlabel='t', ylabel='p(t)')
 
     return
 def getdqdp(solvedqp): # Get the derivatives for the phase portrait
